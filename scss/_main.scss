@@ -1,0 +1,49 @@
+
+p{
+    font-family: $mainFont;
+    font-size: 1rem;
+    color: $blackColor;
+}
+
+.button{
+	background:$mainColor;
+    color: $whiteColor;
+    cursor: pointer;
+    &:hover{
+        background:$secondaryColor ;
+        color: $whiteColor;
+        cursor: pointer;
+    }
+
+}
+
+
+.bg-orange{
+    background-color:map-get($map: $paleta, $key:'uno' );
+}
+
+.bg-black{
+    background-color: map-get($map: $paleta, $key:'tres' );
+}
+
+.bg-gris{
+    background-color: $secondaryColor;
+}
+
+
+.bg-orangetransparencia{
+    background-color: $contactColor;
+}
+
+
+.w-10{
+    width: 50px;
+}
+
+
+
+
+
+
+
+
